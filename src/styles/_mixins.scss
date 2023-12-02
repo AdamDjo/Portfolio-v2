@@ -1,0 +1,13 @@
+//buttons
+@mixin buttonStyles($color, $border, $background, $hover) {
+  color: $color;
+  border: $border;
+  font-size: 13px;
+  background: $background;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background: $hover;
+  }
+}

@@ -1,0 +1,34 @@
+@import '../../styles/variables';
+@import '../../styles/placeholders';
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+  .right-links {
+    width: 18rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.025em;
+    transform: rotate(90deg);
+  }
+
+  a {
+    color: $textLight;
+    text-decoration: none;
+    &:hover {
+      color: $textGreen;
+      transform: translateY(0.5rem);
+    }
+  }
+  .liner {
+    width: 2px;
+    height: 100px;
+    background: $textDark;
+  }
+}
