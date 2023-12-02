@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.nav-menu {
+  box-shadow: $navbarShadow;
+
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: $container;
+    margin: auto;
+    z-index: 2;
+
+    .nav-links {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      gap: 3rem;
+
+      .link {
+        color: $textLight;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+          color: $textGreen;
+        }
+      }
+      button {
+        @include buttonStyles($textGreen, $borderButtons, none, $hoverColor);
+      }
+    }
+  }
+}
+@media (max-width: $mdl) {
+  .nav-menu {
+    .nav-items {
+      .nav-links {
+        display: none;
+      }
+    }
+  }
+}

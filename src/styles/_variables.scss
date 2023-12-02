@@ -1,0 +1,39 @@
+//colors
+$bodyColor: #0a192f;
+$textGreen: #64ffda;
+$textLight: #ccd6f6;
+$textDark: #8892b0;
+$hoverColor: rgba(100, 255, 218, 0.1);
+
+// navbar & boxShadow
+$navbarShadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+
+//size screen
+$xs: 320px;
+$sm: 375px;
+$sml: 500px;
+$md: 667px;
+$mdl: 768px;
+$lg: 960px;
+$lgl: 1024px;
+$xl: 1280px;
+
+// containers
+$container: 1440px;
+$contentContainer: 1140px;
+$containerSmall: 1024px;
+$containerXs: 768px;
+
+//buttons
+$borderButtons: 1px solid $textGreen;
+
+//menu icon
+$burger-menu-size: 1.5rem;
+$burger-line-height: 2px;
+$burger-line-width: 80%;
+$burger-line-color: #64ffda;
+$burger-line-hover-width: 100%;
+$burger-line-hover-height: 3px;
+$burger-line-hover-translate: 0.5rem;
+$transition-duration: 300ms;
+$transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

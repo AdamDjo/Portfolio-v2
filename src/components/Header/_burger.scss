@@ -1,0 +1,38 @@
+// _burger-menu.scss
+@import '../../styles/variables';
+
+.burger-menu {
+  .burger-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: $burger-menu-size;
+    height: calc($burger-menu-size * 0.83333);
+
+    font-size: 2.25rem;
+    line-height: $burger-line-height;
+    justify-content: space-between;
+    align-items: center;
+    color: $burger-line-color;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+      .burger-line {
+        width: $burger-line-hover-width;
+        transform: translateX($burger-line-hover-translate);
+      }
+    }
+  }
+
+  .burger-line {
+    width: $burger-line-width;
+    height: $burger-line-height;
+    background-color: $burger-line-color;
+    display: block;
+    transition: all $transition-duration $transition-timing-function;
+  }
+}
+@media (min-width: $mdl) {
+  .burger-menu {
+    display: none;
+  }
+}
