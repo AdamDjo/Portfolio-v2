@@ -1,5 +1,5 @@
 //buttons
-@mixin buttonStyles($color, $border, $background, $hover) {
+@mixin buttonStyles($color, $border, $background, $hover, $width, $height) {
   color: $color;
   border: $border;
   font-size: 13px;
@@ -7,6 +7,9 @@
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
+  width: $width;
+  $height: $height;
+  font-family: '__Inter_e66fe9', '__Inter_Fallback_e66fe9';
   &:hover {
     background: $hover;
   }

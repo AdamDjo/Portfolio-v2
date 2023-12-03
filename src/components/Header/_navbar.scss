@@ -28,7 +28,14 @@
         }
       }
       button {
-        @include buttonStyles($textGreen, $borderButtons, none, $hoverColor);
+        @include buttonStyles(
+          $textGreen,
+          $borderButtons,
+          none,
+          $hoverColor,
+          100%,
+          100%
+        );
       }
     }
   }
