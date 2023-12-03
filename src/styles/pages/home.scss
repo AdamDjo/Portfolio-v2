@@ -20,7 +20,10 @@ main {
     height: 100%;
   }
   .body-layout {
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: auto;
     height: 88vh;
   }

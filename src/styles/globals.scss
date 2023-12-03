@@ -15,3 +15,19 @@ a {
     transform: translateY(0.5rem);
   }
 }
+h1,
+h2,
+h3,
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+}
+span {
+  color: $textDark;
+}
+p {
+  font-weight: 500;
+  color: $textDark;
+  font-size: 1rem;
+}
