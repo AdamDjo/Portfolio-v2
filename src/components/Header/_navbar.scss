@@ -3,7 +3,8 @@
 
 .nav-menu {
   box-shadow: $navbarShadow;
-
+  position: fixed;
+  width: 100%;
   .nav-items {
     display: flex;
     justify-content: space-between;
