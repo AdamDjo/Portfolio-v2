@@ -1,0 +1,42 @@
+// _burger-menu.scss
+@import '../../styles/variables';
+
+.jobs {
+  width: 100%;
+  .title {
+    display: flex;
+    gap: 1;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin-top: 0;
+    span {
+      color: $textGreen;
+      letter-spacing: 0.025em;
+    }
+  }
+  .paragraphe {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: $textDark;
+  }
+  .listJobs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    .item {
+      span {
+        color: $textGreen;
+        margin-top: 0.25rem;
+      }
+      display: flex;
+      gap: 0.5rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: $textDark;
+    }
+  }
+}

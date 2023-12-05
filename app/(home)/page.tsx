@@ -3,6 +3,7 @@ import '../../src/styles/pages/home.scss';
 import { RightSide } from '@/src/components/Layout/RightSide';
 import { Banner } from '@/src/components/banner/Banner';
 import { About } from '@/src/components/About/About';
+import { Experience } from '@/src/components/Experiences/Experience';
 export default function Home() {
   return (
     <main>
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="body-layout">
         <Banner></Banner>
         <About></About>
+        <Experience></Experience>
       </div>
       <div className="right-layout">
         <RightSide />
