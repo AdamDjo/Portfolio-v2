@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "posteName": "dev",
+      "companiesName": "mdSoft",
+      "startDate": 2005,
+      "endDate": 2006,
+      "jobDescription": "lorem",
+      "tasks": ["lorem1", "lorem2", "lorem3"]
+    },
+    {
+      "posteName": "dev2",
+      "companiesName": "Keyrus",
+      "startDate": 2010,
+      "endDate": 2009,
+      "jobDescription": "lorem",
+      "tasks": ["lorem1", "lorem2", "lorem3"]
+    }
+  ]
+}

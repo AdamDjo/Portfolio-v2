@@ -1,0 +1,68 @@
+// _burger-menu.scss
+@import '../../styles/variables';
+
+.Experience {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin: auto;
+  max-width: $containerXs;
+}
+.companies {
+  display: flex;
+  margin-top: 2.5rem;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  .list {
+    display: flex;
+    flex-direction: column;
+    .item {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      border-width: 1px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      background-color: transparent;
+      transition-duration: 300ms;
+      cursor: pointer;
+      border-left: 1px solid $hoverColor;
+      color: $textDark;
+      margin: 0;
+
+      &:hover {
+        background: #112240;
+        border-left: 1px solid $textGreen;
+      }
+    }
+    .item-active {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      border-width: 1px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      background-color: transparent;
+      transition-duration: 300ms;
+      cursor: pointer;
+      background: #112240;
+      color: $textGreen;
+      margin: 0;
+      border-left: 1px solid $textGreen;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .companies {
+    flex-direction: row;
+    .list {
+      width: 8rem;
+    }
+  }
+}
