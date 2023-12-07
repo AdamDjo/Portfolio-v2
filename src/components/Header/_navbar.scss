@@ -5,6 +5,8 @@
   box-shadow: $navbarShadow;
   position: fixed;
   width: 100%;
+  z-index: 55555;
+  background: #0a192f;
   .nav-items {
     display: flex;
     justify-content: space-between;
@@ -12,7 +14,6 @@
     padding: 15px;
     max-width: $container;
     margin: auto;
-    z-index: 2;
 
     .nav-links {
       display: flex;
