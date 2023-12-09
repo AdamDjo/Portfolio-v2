@@ -25,9 +25,15 @@
         color: $textLight;
         cursor: pointer;
         text-decoration: none;
+        span {
+          color: $textGreen;
+        }
         &:hover {
           color: $textGreen;
         }
+      }
+      .active {
+        color: $textGreen;
       }
       button {
         @include buttonStyles(
@@ -42,7 +48,7 @@
     }
   }
 }
-@media (max-width: $mdl) {
+@media (max-width: 767px) {
   .nav-menu {
     .nav-items {
       .nav-links {

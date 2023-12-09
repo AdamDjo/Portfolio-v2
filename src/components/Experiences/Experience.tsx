@@ -18,7 +18,7 @@ export const Experience = () => {
     setSelectedJob(job);
   };
   return (
-    <section className="Experience">
+    <section className="section-experience" id="experience">
       <SectionTitle title="Experiences" titleNumber="0.2."></SectionTitle>
       <div className="companies">
         <ul className="list">

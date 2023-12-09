@@ -19,9 +19,11 @@ export const Banner = () => {
           </span>
         </a>
       </p>
-      <a href="#">
-        <button> Check out my Projects!</button>
-      </a>
+      <div>
+        <a href="#" className="#">
+          <button> Check out my Projects!</button>
+        </a>
+      </div>
     </section>
   );
 };
