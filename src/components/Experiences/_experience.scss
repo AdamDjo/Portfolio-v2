@@ -1,11 +1,9 @@
 // _burger-menu.scss
 @import '../../styles/variables';
 
-.Experience {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.section-experience {
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 8.5rem;
   margin: auto;
   max-width: $containerXs;
 }
@@ -55,6 +53,18 @@
       color: $textGreen;
       margin: 0;
       border-left: 1px solid $textGreen;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .section-experience {
+    padding-bottom: 2.5rem;
+  }
+  .companies {
+    flex-direction: column;
+    .list {
+      width: 8rem;
     }
   }
 }

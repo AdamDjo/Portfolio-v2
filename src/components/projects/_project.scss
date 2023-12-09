@@ -3,13 +3,11 @@
 @import '../../styles/mixins';
 .project-section {
   max-width: $container;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 6rem;
   margin: auto;
   .projects {
     max-width: 100%;
@@ -17,7 +15,7 @@
     flex-direction: column;
 
     justify-content: center;
-    gap: 28;
+    gap: 6rem;
     margin-top: 10px;
     .project__card {
       display: flex;
@@ -100,9 +98,32 @@
         $borderButtons,
         none,
         $hoverColor,
-        20%,
-        100%
+        13rem,
+        3.5rem
       );
+    }
+  }
+}
+@media (max-width: 960px) {
+  .project-section {
+    gap: 2rem;
+    .projects {
+      .project__card {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        .project__image {
+          margin: auto;
+        }
+        .project__text {
+          align-items: center;
+          margin-left: inherit;
+          text-align: center;
+          .project__list {
+            flex-wrap: wrap-reverse;
+          }
+        }
+      }
     }
   }
 }

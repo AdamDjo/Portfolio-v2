@@ -17,7 +17,7 @@ export const Projects = () => {
           </div>
 
           <div className="project__text">
-            <p>Features project</p>
+            <p>Featured project</p>
             <h3>Amazone clone 3.2</h3>
             <p className="item">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
@@ -56,7 +56,7 @@ export const Projects = () => {
           </div>
 
           <div className="project__text">
-            <p>Features project</p>
+            <p>Featured project</p>
             <h3>Amazone clone 3.2</h3>
             <p className="item">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
@@ -96,7 +96,7 @@ export const Projects = () => {
           </div>
 
           <div className="project__text">
-            <p>Features project</p>
+            <p>Featured project</p>
             <h3>Amazone clone 3.2</h3>
             <p className="item">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam

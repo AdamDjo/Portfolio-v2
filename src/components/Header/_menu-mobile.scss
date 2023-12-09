@@ -1,0 +1,107 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.burger-menu {
+  .burger-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: $burger-menu-size;
+    height: calc($burger-menu-size * 0.83333);
+
+    font-size: 2.25rem;
+    line-height: $burger-line-height;
+    justify-content: space-between;
+    align-items: center;
+    color: $burger-line-color;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+      .burger-line {
+        width: $burger-line-hover-width;
+        transform: translateX($burger-line-hover-translate);
+      }
+    }
+  }
+
+  .burger-line {
+    width: $burger-line-width;
+    height: $burger-line-height;
+    background-color: $burger-line-color;
+    display: block;
+    transition: all $transition-duration $transition-timing-function;
+  }
+}
+
+.mobile-menu {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+
+  .mobile-menu-content {
+    display: flex;
+    overflow-y: scroll;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #112240;
+    justify-content: center;
+    text-align: center;
+    .close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      cursor: pointer;
+      color: $textGreen;
+      &:hover {
+        color: #ef4444;
+      }
+    }
+    .icons {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      cursor: pointer;
+      color: $textDark;
+      &:hover {
+        color: $textGreen;
+      }
+      .link {
+        text-decoration: none;
+      }
+      button {
+        @include buttonStyles(
+          $textGreen,
+          $borderButtons,
+          none,
+          $hoverColor,
+          100%,
+          100%
+        );
+      }
+    }
+  }
+}
+@media (min-width: $mdl) {
+  .burger-menu {
+    display: none;
+  }
+}

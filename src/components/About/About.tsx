@@ -68,7 +68,6 @@ export const About = () => {
         </div>
         <div className="AboutImage">
           {' '}
-          <div className="border-image"> </div>
           <div className="image-content">
             <img src="https://placehold.co/600x400/png" alt="Adam"></img>
           </div>
