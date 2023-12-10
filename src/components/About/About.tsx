@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { SectionTitle } from '../Layout/SectionTitle';
 import './_about.scss';
 import { AiFillThunderbolt } from 'react-icons/ai';
@@ -9,24 +10,26 @@ export const About = () => {
       <div className="AboutContent">
         <div className="AboutText">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-            veritatis quia eaque optio itaque eius doloribus harum excepturi
-            accusantium! Quas excepturi illo veniam error odio neque iste.
-            Numquam, accusantium commodi?
+            Hey there, fellow digital explorer! I m not your typical web
+            developer; I m a code conjurer and pixel perfectionist on a mission
+            to craft online experiences that resonate. With my keyboard as a
+            magic wand and a canvas of code, I breathe life into designs and
+            transform them into captivating, interactive realities.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-            dolorem deleniti reiciendis id sunt provident ut! Blanditiis quam
-            nostrum culpa similique harum illo illum voluptatibus necessitatibus
-            vel minima, nisi quibusdam.
+            My passion for elegant aesthetics dances with my love for
+            cutting-edge technology, resulting in websites that are not just
+            functional, but enchanting.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-            dolorem deleniti reiciendis id sunt provident ut! Blanditiis quam
-            nostrum culpa similique harum illo illum voluptatibus necessitatibus
-            vel minima, nisi quibusdam.
+            From HTML incantations to CSS sorcery and JavaScript wizardry, I
+            wield a diverse arsenal of skills to create user-centric, visually
+            stunning, and seamlessly responsive websites. Join me on this
+            exhilarating journey where imagination meets innovation, and
+            together, we ll sculpt the digital realm into something
+            extraordinary.
           </p>
-          <p>Here are a few technologies I have been working with recently:</p>
+          <p>Here are a few technologies I ve been working with recently:</p>
           <ul>
             <li>
               <span>
@@ -38,38 +41,54 @@ export const About = () => {
               <span>
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              Vue Js
             </li>
             <li>
               <span>
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              React Js
             </li>
             <li>
               <span>
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              Next / Nuxt Js
             </li>
             <li>
               <span>
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              SASS / Tailwind / Bootstrap
             </li>
             <li>
               <span>
                 <AiFillThunderbolt></AiFillThunderbolt>
               </span>
-              Javascript (ES6+)
+              Node js
+            </li>
+            <li>
+              <span>
+                <AiFillThunderbolt></AiFillThunderbolt>
+              </span>
+              Express Js
+            </li>
+            <li>
+              <span>
+                <AiFillThunderbolt></AiFillThunderbolt>
+              </span>
+              MongoDB
             </li>
           </ul>
         </div>
         <div className="AboutImage">
-          {' '}
           <div className="image-content">
-            <img src="https://placehold.co/600x400/png" alt="Adam"></img>
+            <Image
+              src="/images/Portfolio.png"
+              alt="Profile Pic"
+              width={500}
+              height={400}
+            />
           </div>
         </div>
       </div>

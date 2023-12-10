@@ -1,30 +1,23 @@
 import { FiGithub } from 'react-icons/fi';
-
+import { CiMail } from 'react-icons/ci';
 import { SlSocialYoutube } from 'react-icons/sl';
-import {
-  SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
-} from 'react-icons/sl';
+import { SlSocialLinkedin } from 'react-icons/sl';
 import './_leftLayout.scss';
 export const LeftSide = () => {
   return (
     <div className="left-content">
       <div className="left-links">
-        <a href="#" target="_blank">
+        <a href="https://github.com/AdamDjo" target="_blank">
           <FiGithub></FiGithub>
         </a>
-        <a href="#" target="_blank">
-          <SlSocialYoutube></SlSocialYoutube>
-        </a>
-        <a href="#" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/adam-ben-messaoud/"
+          target="_blank"
+        >
           <SlSocialLinkedin></SlSocialLinkedin>
         </a>
-        <a href="#" target="_blank">
-          <SlSocialFacebook></SlSocialFacebook>
-        </a>
-        <a href="#" target="_blank">
-          <SlSocialInstagram></SlSocialInstagram>
+        <a href="mailto:=adam.ben.messaoud@outlook.fr" target="_blank">
+          <CiMail></CiMail>
         </a>
       </div>
       <div className="liner"></div>

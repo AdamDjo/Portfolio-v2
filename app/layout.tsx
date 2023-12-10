@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '@/src/styles/globals.scss';
 import { Navbar } from '@/src/components/Header/Navbar';
-import { Footer } from '@/src/components/Footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,11 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className} suppressHydrationWarning={true}>
+    <html lang="en" style={{ scrollBehavior: 'smooth' }}>
+      <body className={inter.className}>
         <Navbar></Navbar>
         {children}
-        <Footer></Footer>
       </body>
     </html>
   );

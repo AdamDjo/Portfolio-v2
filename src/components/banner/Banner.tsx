@@ -8,11 +8,14 @@ export const Banner = () => {
         Adam BenMessaoud.<span> I build things for the web.</span>
       </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-        tempore! Recusandae quisquam at quae minima! Enim quisquam sed facilis
-        dolore accusamus blanditiis dolorem. Adipisci hic optio dolor autem
-        inventore nihil.
-        <a href="#" target="_blank">
+        I am a web developer with 2+ years of experience in Web Developement. I
+        have a strong foundation in front-end & back-end development and am
+        skilled in creating user-friendly and responsive web applications using
+        React,Vue,NodeJs and its ecosystem.
+      </p>
+      <p>
+        {' '}
+        <a href="#project">
           <span>
             Learn More
             <span className="liner"></span>
@@ -20,7 +23,7 @@ export const Banner = () => {
         </a>
       </p>
       <div>
-        <a href="#" className="#">
+        <a href="#project" className="">
           <button> Check out my Projects!</button>
         </a>
       </div>

@@ -2,43 +2,48 @@ import { SectionTitle } from '../Layout/SectionTitle';
 import { TbBrandGithub } from 'react-icons/tb';
 import { RxOpenInNewWindow } from 'react-icons/rx';
 import './_project.scss';
+import Image from 'next/image';
 
 export const Projects = () => {
   return (
     <section id="project" className="project-section">
       <SectionTitle title="Some things I have built " titleNumber="0.3" />
-      {/* project one */}
+      {/* project One */}
       <div className="projects">
         <div className="project__card">
           <div className="project__image">
             <a href="#" target="_blank">
-              <img src="https://placehold.co/800@2x.png" alt="project-1"></img>
+              <Image
+                src="/images/Githread.jpg"
+                alt="Project build with love Githread"
+                width={800}
+                height={800}
+              ></Image>
             </a>
           </div>
 
           <div className="project__text">
             <p>Featured project</p>
-            <h3>Amazone clone 3.2</h3>
+            <h3>Githread</h3>
             <p className="item">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              deserunt voluptatum officia quo, repellendus aut voluptatem
-              voluptatibus cum facilis, dicta{' '}
-              <span>architecto esse debitis</span>, nulla quos ex eum quas iusto
-              facere?
+              Mobile Application build with Next14 with some features: Next Auth
+              for authentification, with that application you can post some
+              thread
+              <span> GitHub</span>
             </p>
             <ul className="project__list">
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
+              <li>NextJs 14</li>
+              <li>React</li>
+              <li>Tailwind</li>
+              <li>Prisma</li>
+              <li>PostgreSql</li>
             </ul>
             <ul className="project__links">
               <li>
-                <a href="#" target="_blank">
+                <a href="https://github.com/AdamDjo/Githread" target="_blank">
                   <TbBrandGithub></TbBrandGithub>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://githread-adam.vercel.app/" target="_blank">
                   <RxOpenInNewWindow />
                 </a>
               </li>
@@ -46,38 +51,43 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      {/* project two */}
+      {/* project Three */}
       <div className="projects">
         <div className="project__card reverse">
           <div className="project__image">
             <a href="#" target="_blank">
-              <img src="https://placehold.co/800@2x.png" alt="project-1"></img>
+              <Image
+                src="/images/Music.jpg"
+                alt="Project build with Music App"
+                width={800}
+                height={800}
+              ></Image>
             </a>
           </div>
 
           <div className="project__text">
             <p>Featured project</p>
-            <h3>Amazone clone 3.2</h3>
+            <h3>Music MiniProject</h3>
             <p className="item">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              deserunt voluptatum officia quo, repellendus aut voluptatem
-              voluptatibus cum facilis, dicta{' '}
-              <span>architecto esse debitis</span>, nulla quos ex eum quas iusto
-              facere?
+              That was a an auto-formation of Vue 3, its a music website using
+              Vue Option API and firebase as a backend service
             </p>
             <ul className="project__list">
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
+              <li>Vue 3</li>
+              <li>Firebase</li>
+              <li>I18N</li>
+              <li>PiniaStore</li>
+              <li>Cypress</li>
             </ul>
             <ul className="project__links">
               <li>
-                <a href="#" target="_blank">
+                <a
+                  href="https://github.com/AdamDjo/Music-Vue3-Miniproject"
+                  target="_blank"
+                >
                   <TbBrandGithub></TbBrandGithub>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://music-vue3-adam.vercel.app/" target="_blank">
                   <RxOpenInNewWindow />
                 </a>
               </li>
@@ -85,39 +95,40 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-
-      {/* project three */}
+      {/* project Two */}
       <div className="projects">
         <div className="project__card">
           <div className="project__image">
             <a href="#" target="_blank">
-              <img src="https://placehold.co/800@2x.png" alt="project-1"></img>
+              <Image
+                src="/images/Movies.jpg"
+                alt="Project build with love Film application"
+                width={800}
+                height={800}
+              ></Image>
             </a>
           </div>
 
           <div className="project__text">
             <p>Featured project</p>
-            <h3>Amazone clone 3.2</h3>
+            <h3>React Movies</h3>
             <p className="item">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              deserunt voluptatum officia quo, repellendus aut voluptatem
-              voluptatibus cum facilis, dicta{' '}
-              <span>architecto esse debitis</span>, nulla quos ex eum quas iusto
-              facere?
+              List of movies application fetching from a from movies Api, making
+              some filters, search bar, & whishlist
+              <span>ReactMovies</span>
             </p>
             <ul className="project__list">
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
-              <li>NextJs</li>
+              <li>React Js</li>
+              <li>SASS</li>
+              <li>LocalStorage</li>
+              <li>Movies Api</li>
             </ul>
             <ul className="project__links">
               <li>
-                <a href="#" target="_blank">
+                <a href="https://github.com/AdamDjo/Film-API" target="_blank">
                   <TbBrandGithub></TbBrandGithub>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://film-api-lemon.vercel.app/" target="_blank">
                   <RxOpenInNewWindow />
                 </a>
               </li>
@@ -127,7 +138,7 @@ export const Projects = () => {
       </div>
 
       <div className="show-more">
-        <a href="#">
+        <a href="https://www.behance.net/adambenmessaoud" target="_blank">
           <button> Show more!</button>
         </a>
       </div>

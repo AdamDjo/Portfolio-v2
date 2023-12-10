@@ -3,8 +3,8 @@ import './_menu-mobile.scss';
 import { MdOutlineClose } from 'react-icons/md';
 import Link from 'next/link';
 import { Footer } from '../Footer/Footer';
+
 export const MobileMenu = () => {
-  const ref = useRef<string | any>('');
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div>
@@ -17,7 +17,7 @@ export const MobileMenu = () => {
         </div>
       </div>
       {showMenu && (
-        <div ref={(node) => (ref.current = node)} className="mobile-menu">
+        <div className="mobile-menu">
           <div className="mobile-menu-content">
             <MdOutlineClose
               className="close"
