@@ -12,7 +12,7 @@ export const Projects = () => {
       <div className="projects">
         <div className="project__card">
           <div className="project__image">
-            <a href="#" target="_blank">
+            <a href="https://githread-adam.vercel.app/" target="_blank">
               <Image
                 src="/images/Githread.jpg"
                 alt="Project build with love Githread"
@@ -55,7 +55,7 @@ export const Projects = () => {
       <div className="projects">
         <div className="project__card reverse">
           <div className="project__image">
-            <a href="#" target="_blank">
+            <a href="https://music-vue3-adam.vercel.app/" target="_blank">
               <Image
                 src="/images/Music.jpg"
                 alt="Project build with Music App"
@@ -99,7 +99,7 @@ export const Projects = () => {
       <div className="projects">
         <div className="project__card">
           <div className="project__image">
-            <a href="#" target="_blank">
+            <a href="https://film-api-lemon.vercel.app/" target="_blank">
               <Image
                 src="/images/Movies.jpg"
                 alt="Project build with love Film application"

@@ -11,7 +11,7 @@ import { Footer } from '@/src/components/Footer/Footer';
 import { motion } from 'framer-motion';
 export default function Home() {
   return (
-    <main>
+    <main className="bg">
       <div className="left-layout">
         <LeftSide></LeftSide>
       </div>
