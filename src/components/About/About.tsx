@@ -1,11 +1,28 @@
-import Image from 'next/image';
 import { SectionTitle } from '../Layout/SectionTitle';
 import './_about.scss';
 import { AiFillThunderbolt } from 'react-icons/ai';
+import { motion } from 'framer-motion';
+
+import useAnimate from '@/src/hooks/useAnimate';
 
 export const About = () => {
+  const { ref, mainControls } = useAnimate();
   return (
-    <section className="AboutSection" id="about">
+    <motion.section
+      className="AboutSection"
+      id="about"
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0, y: 75 },
+        visible: {
+          opacity: 1,
+          y: 0,
+        },
+      }}
+      initial="hidden"
+      animate={mainControls}
+      transition={{ duration: 0.5, delay: 0.25 }}
+    >
       <SectionTitle title="About Me" titleNumber="0.1."></SectionTitle>
       <div className="AboutContent">
         <div className="AboutText">
@@ -30,6 +47,8 @@ export const About = () => {
             extraordinary.
           </p>
           <p>Here are a few technologies I ve been working with recently:</p>
+        </div>
+        <div className="skills">
           <ul>
             <li>
               <span>
@@ -81,17 +100,7 @@ export const About = () => {
             </li>
           </ul>
         </div>
-        <div className="AboutImage">
-          <div className="image-content">
-            <Image
-              src="/images/Portfolio.png"
-              alt="Profile Pic"
-              width={500}
-              height={400}
-            />
-          </div>
-        </div>
       </div>
-    </section>
+    </motion.section>
   );
 };

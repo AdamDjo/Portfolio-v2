@@ -1,8 +1,9 @@
 'use client';
-import Link from 'next/link';
+
 import './_navbar.scss';
 import { motion } from 'framer-motion';
 import { MobileMenu } from './MobileMenu';
+import Link from 'next/link';
 
 export const Navbar = () => {
   const handleScroll = (
@@ -25,7 +26,7 @@ export const Navbar = () => {
       <div className="nav-items ">
         <div>{/* <img src="logo" alt="logo" /> */}</div>
         <div className="nav-links ">
-          <Link href="#home" className="link" onClick={handleScroll}>
+          <a href="#home" className="link" onClick={handleScroll}>
             <motion.div
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -33,13 +34,8 @@ export const Navbar = () => {
             >
               <span> </span> Home
             </motion.div>
-          </Link>
-          <Link
-            href="#about"
-            className="link"
-            onClick={handleScroll}
-            scroll={true}
-          >
+          </a>
+          <Link href="#about" className="link" onClick={handleScroll}>
             <motion.div
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

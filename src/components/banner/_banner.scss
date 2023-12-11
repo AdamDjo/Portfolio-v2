@@ -1,66 +1,88 @@
 @import '../../styles/variables';
 @import '../../styles/mixins';
 .banner {
-  display: flex;
+  max-width: $container;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  flex-direction: column;
-  gap: 1rem;
-
-  height: 88vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 100vh;
   justify-content: center;
-  h1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 3.75rem;
-    line-height: 1;
-    margin: 1rem 0;
-  }
-  h3 {
-    color: $textGreen;
-    font-size: 2rem;
-  }
-  span {
-    margin-top: 5px;
-  }
-
-  a {
-    span {
+  position: relative;
+  align-items: center;
+  gap: 2rem;
+  .text-banner {
+    h1 {
+      display: flex;
+      flex-direction: column;
+      font-size: 3.75rem;
+      line-height: 1;
+      margin: 1rem 0;
+    }
+    h3 {
       color: $textGreen;
-      display: inline-flex;
-      position: relative;
-      cursor: pointer;
+      font-size: 2rem;
+    }
+    span {
+      margin-top: 5px;
+    }
 
-      .liner {
-        position: absolute;
-        width: 100%;
-        height: 1px;
-        background: $textGreen;
-        left: 0;
-        bottom: 0;
-        transform: scaleX(
-          0
-        ); // Définissez l'échelle X à 0 par défaut pour l'effet de départ
-        transform-origin: bottom left; // Ajustez l'origine de la transformation à bottom left
-        transition: transform 0.3s ease; // Transition de l'échelle sur 0.3s avec une courbe d'accélération
-      }
+    a {
+      span {
+        color: $textGreen;
+        display: inline-flex;
+        position: relative;
+        cursor: pointer;
 
-      &:hover .liner {
-        transform: scaleX(
-          1
-        ); // Lorsque survolé, mettez l'échelle X à 1 pour l'effet d'élargissement
+        .liner {
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: $textGreen;
+          left: 0;
+          bottom: 0;
+          transform: scaleX(
+            0
+          ); // Définissez l'échelle X à 0 par défaut pour l'effet de départ
+          transform-origin: bottom left; // Ajustez l'origine de la transformation à bottom left
+          transition: transform 0.3s ease; // Transition de l'échelle sur 0.3s avec une courbe d'accélération
+        }
+
+        &:hover .liner {
+          transform: scaleX(
+            1
+          ); // Lorsque survolé, mettez l'échelle X à 1 pour l'effet d'élargissement
+        }
       }
     }
+    button {
+      @include buttonStyles(
+        $textGreen,
+        $borderButtons,
+        none,
+        $hoverColor,
+        13rem,
+        3.5rem
+      );
+    }
   }
-  button {
-    @include buttonStyles(
-      $textGreen,
-      $borderButtons,
-      none,
-      $hoverColor,
-      13rem,
-      3.5rem
-    );
+
+  .AboutImage {
+    .image-content {
+      img {
+        object-fit: cover;
+        border-radius: 0.5rem;
+        width: 100%;
+
+        transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; // Ajout de cette ligne
+
+        &:hover {
+          filter: brightness(90%);
+          transform: translate(0.5rem, 0.5rem);
+        }
+      }
+    }
   }
 }
 

@@ -1,7 +1,24 @@
+import useAnimate from '@/src/hooks/useAnimate';
 import './_contact.scss';
+import { motion } from 'framer-motion';
 export const Contact = () => {
+  const { ref, mainControls } = useAnimate();
   return (
-    <section id="contact" className="contact-section">
+    <motion.section
+      id="contact"
+      className="contact-section"
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0, y: 75 },
+        visible: {
+          opacity: 1,
+          y: 0,
+        },
+      }}
+      initial="hidden"
+      animate={mainControls}
+      transition={{ duration: 0.5, delay: 0.25 }}
+    >
       <span className="liner"></span>
       <p className="subtitle">
         <span>0.4.</span>What s Next?
@@ -17,6 +34,6 @@ export const Contact = () => {
       <a href="mailto:=adam.ben.messaoud@outlook.fr">
         <button>Say Hello! </button>
       </a>
-    </section>
+    </motion.section>
   );
 };

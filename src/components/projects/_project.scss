@@ -7,20 +7,26 @@
   padding-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  justify-content: center;
+  gap: 2rem;
   margin: auto;
+  align-items: center;
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
   .projects {
     max-width: 100%;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     gap: 6rem;
     margin-top: 10px;
     .project__card {
       display: flex;
       flex-direction: row;
-      gap: 6;
+
       .project__image {
         width: 75%;
         a {

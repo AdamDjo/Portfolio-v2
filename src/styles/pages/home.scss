@@ -5,6 +5,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
   .left-layout {
     position: fixed;
     bottom: 0;
@@ -12,6 +13,7 @@ main {
     top: 3rem;
     width: 10%;
     height: 100%;
+    z-index: 5;
   }
   .right-layout {
     position: fixed;
@@ -22,9 +24,17 @@ main {
     height: 100%;
   }
   .body-layout {
-    width: 65%;
-
-    margin: auto;
+    width: 100%;
+  }
+  #curve {
+    position: absolute;
+    bottom: 0;
+    fill: $textDark;
+  }
+  #curve-reverse {
+    position: absolute;
+    top: 0;
+    fill: $textDark;
   }
 }
 
@@ -37,5 +47,6 @@ main {
   }
   .body-layout {
     text-align: center;
+    padding: 0 2rem !important;
   }
 }
