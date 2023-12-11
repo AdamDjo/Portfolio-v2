@@ -13,6 +13,7 @@
   align-items: center;
   gap: 2rem;
   .text-banner {
+    max-width: 900px;
     h1 {
       display: flex;
       flex-direction: column;
@@ -74,7 +75,7 @@
         object-fit: cover;
         border-radius: 0.5rem;
         width: 100%;
-
+        min-width: 240px;
         transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; // Ajout de cette ligne
 
         &:hover {
@@ -88,11 +89,18 @@
 
 @media (max-width: $xl) {
   .banner {
-    max-width: $containerXs;
   }
 }
 @media (max-width: $lg) {
   .banner {
     max-width: inherit;
+    gap: 0;
+    margin: 0;
+  }
+
+  .AboutImage {
+    .image-content {
+      display: none;
+    }
   }
 }

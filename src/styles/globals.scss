@@ -41,7 +41,6 @@ body {
     font-weight: 500;
     color: $textDark;
     font-size: 1rem;
-    max-width: 600px;
   }
   .title {
     display: flex;
@@ -88,15 +87,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: $textGreen;
 }
-@media (max-width: 960px) {
+@media (max-width: $lg) {
   p {
     max-width: inherit;
   }
   .title {
     justify-content: center;
-    .liner {
-      display: none;
-    }
+  }
+  .liner {
+    display: none !important;
   }
 }
 @media (max-width: 776px) {
@@ -108,13 +107,19 @@ body {
     line-height: 1.75rem;
     letter-spacing: 0.025em;
   }
+  .title {
+    font-size: 1.25rem !important;
+  }
+  .numberSection {
+    font-size: 1.25rem !important;
+  }
 }
 @media (max-width: 425px) {
   h1,
   h2,
   h3,
   h4 {
-    font-size: 1.125rem !important;
+    font-size: 1.5rem !important;
     line-height: 1.75rem;
     letter-spacing: 0.025em;
   }
