@@ -16,8 +16,6 @@ export default function Home() {
         <LeftSide></LeftSide>
       </div>
       <div className="body-layout">
-        <Divider></Divider>
-
         <Banner></Banner>
 
         <About></About>

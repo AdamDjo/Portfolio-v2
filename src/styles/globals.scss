@@ -66,6 +66,9 @@ body {
       margin: 5px;
     }
   }
+  .description {
+    max-width: 600px;
+  }
 }
 
 /*scrollbar*/
@@ -80,7 +83,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $textLight;
+  background: $textGreen;
 }
 
 /* Handle on hover */

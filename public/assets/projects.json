@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Githread",
+      "description": "Mobile Application build with Next14 with some features: Next Auth for authentification, with that application you can post some thread GitHub",
+      "technologies": [
+        "NextJs 14",
+        "React",
+        "Tailwind",
+        "Prisma",
+        "PostgreSsql"
+      ],
+      "GithubLink": "https://github.com/AdamDjo/Githread",
+      "prodLink": "https://githread-adam.vercel.app/",
+      "imageLink": ""
+    },
+    {
+      "name": "Githread",
+      "description": "Mobile Application build with Next14 with some features: Next Auth for authentification, with that application you can post some thread GitHub",
+      "technologies": [
+        "NextJs 14",
+        "React",
+        "Tailwind",
+        "Prisma",
+        "PostgreSsql"
+      ],
+      "GithubLink": "https://github.com/AdamDjo/Githread",
+      "prodLink": "https://githread-adam.vercel.app/",
+      "imageLink": ""
+    }
+  ]
+}

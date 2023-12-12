@@ -26,19 +26,19 @@ export const About = () => {
       <SectionTitle title="About Me" titleNumber="0.1."></SectionTitle>
       <div className="AboutContent">
         <div className="AboutText">
-          <p>
+          <p className="description">
             Hey there, fellow digital explorer! I m not your typical web
             developer; I m a code conjurer and pixel perfectionist on a mission
             to craft online experiences that resonate. With my keyboard as a
             magic wand and a canvas of code, I breathe life into designs and
             transform them into captivating, interactive realities.
           </p>
-          <p>
+          <p className="description">
             My passion for elegant aesthetics dances with my love for
             cutting-edge technology, resulting in websites that are not just
             functional, but enchanting.
           </p>
-          <p>
+          <p className="description">
             From HTML incantations to CSS sorcery and JavaScript wizardry, I
             wield a diverse arsenal of skills to create user-centric, visually
             stunning, and seamlessly responsive websites. Join me on this
@@ -46,7 +46,9 @@ export const About = () => {
             together, we ll sculpt the digital realm into something
             extraordinary.
           </p>
-          <p>Here are a few technologies I ve been working with recently:</p>
+          <p className="description">
+            Here are a few technologies I ve been working with recently:
+          </p>
         </div>
         <div className="skills">
           <ul>

@@ -25,7 +25,7 @@ export const Project = () => {
           <div className="project__text">
             <p>Featured project</p>
             <h3>Githread</h3>
-            <p className="item">
+            <p className="item description">
               Mobile Application build with Next14 with some features: Next Auth
               for authentification, with that application you can post some
               thread
@@ -68,7 +68,7 @@ export const Project = () => {
           <div className="project__text">
             <p>Featured project</p>
             <h3>Music MiniProject</h3>
-            <p className="item">
+            <p className="item description">
               That was a an auto-formation of Vue 3, its a music website using
               Vue Option API and firebase as a backend service
             </p>
@@ -112,9 +112,9 @@ export const Project = () => {
           <div className="project__text">
             <p>Featured project</p>
             <h3>React Movies</h3>
-            <p className="item">
+            <p className="item description">
               List of movies application fetching from a from movies Api, making
-              some filters, search bar, & whishlist
+              some filters, search bar, & whishlist <br></br>
               <span>ReactMovies</span>
             </p>
             <ul className="project__list">
