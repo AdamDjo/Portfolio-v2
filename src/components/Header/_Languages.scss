@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+.languages {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    text-decoration: none;
+  }
+}

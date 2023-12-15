@@ -4,6 +4,7 @@ import './_navbar.scss';
 import { motion } from 'framer-motion';
 import { MobileMenu } from './MobileMenu';
 import Link from 'next/link';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export const Navbar = () => {
   const handleScroll = (
@@ -85,6 +86,7 @@ export const Navbar = () => {
               <button>Resume</button>
             </motion.div>
           </a>
+          <LanguageSwitcher></LanguageSwitcher>
         </div>
         <MobileMenu></MobileMenu>
       </div>

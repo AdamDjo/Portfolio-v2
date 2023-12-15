@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import './_menu-mobile.scss';
 import { MdOutlineClose } from 'react-icons/md';
 import Link from 'next/link';

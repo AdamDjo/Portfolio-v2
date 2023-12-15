@@ -1,8 +1,11 @@
 @import 'variables';
-.scroll {
-  --scroll-behavior: smooth !important;
-  scroll-behavior: smooth !important;
+@import '_themes';
+
+:root {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
+
 body {
   max-width: 100vw;
   overflow-x: hidden;

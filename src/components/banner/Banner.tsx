@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import './_banner.scss';
 import { motion } from 'framer-motion';
-
+import { useTranslations } from 'next-intl';
 export const Banner = () => {
+  const t = useTranslations('Index');
   return (
     <motion.section
       id="home"
@@ -12,7 +13,7 @@ export const Banner = () => {
       transition={{ delay: 0.5 }}
     >
       <div className="text-banner">
-        <h3>Hi, my name is </h3>
+        <h3>{t('title')} </h3>
         <h1>
           Adam BenMessaoud.<span> I build things for the web.</span>
         </h1>

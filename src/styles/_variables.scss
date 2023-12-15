@@ -1,9 +1,16 @@
-//colors
+//dark theme
 $bodyColor: #15202b;
 $textGreen: #36b7ff;
 $textLight: #ececec;
 $textDark: #ececec;
 $hoverColor: rgba(100, 255, 218, 0.1);
+
+//light theme
+$bodyColor__light: #ffffff;
+$textGreen__light: #36b7ff;
+$textLight__light: #15202b;
+$textDark__light: #15202b;
+$hoverColor__light: rgba(100, 255, 218, 0.1);
 
 // navbar & boxShadow
 $navbarShadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);

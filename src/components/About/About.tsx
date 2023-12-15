@@ -4,9 +4,10 @@ import { AiFillThunderbolt } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
 import useAnimate from '@/src/hooks/useAnimate';
-
+import { useTranslations } from 'next-intl';
 export const About = () => {
   const { ref, mainControls } = useAnimate();
+  const t = useTranslations('Index');
   return (
     <motion.section
       className="AboutSection"
