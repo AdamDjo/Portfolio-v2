@@ -1,5 +1,36 @@
 {
-  "Index": {
-    "title": "Hello world!"
+  "Banner": {
+    "title": "Adam BenMessaoud.I build things for the web.",
+    "subtitle": "Hi, my name is",
+    "description": "I am a web developer with 2+ years of experience in Web Developement. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React,Vue,NodeJs and its ecosystem.",
+    "link": "Learn More",
+    "button": "Check out my Projects!"
+  },
+  "About": {
+    "title": "About Me",
+    "description 1": " Hey there, fellow digital explorer! I m not your typical web developer; I m a code conjurer and pixel perfectionist on a mission to craft online experiences that resonate. With my keyboard as a magic wand and a canvas of code, I breathe life into designs and transform them into captivating, interactive realities.",
+    "description 2": "My passion for elegant aesthetics dances with my love for cutting-edge technology, resulting in websites that are not just functional, but enchanting.",
+    "description 3": " From HTML incantations to CSS sorcery and JavaScript wizardry, I wield a diverse arsenal of skills to create user-centric, visually stunning, and seamlessly responsive websites. Join me on this exhilarating journey where imagination meets innovation, and together, we ll sculpt the digital realm into something extraordinary.",
+    "technologies": "Here are a few technologies I ve been working with recently:"
+  },
+  "Experiences": {
+    "title": "Experiences"
+  },
+  "Projects": {
+    "title": "Some things I have built",
+    "ProjectTitle": " Githread",
+    "ProjectInfo": "Mobile Application build with Next14 with some features: Next Auth for authentification, with that application you can post some thread GitHub.",
+    "ProjectTitleTwo": "Music MiniProject",
+    "ProjectInfoTwo": "That was a an auto-formation of Vue 3, its a music website using Vue Option API and firebase as a backend service.",
+    "ProjectTitleThree": " React Movies",
+    "ProjectInfoThree": "List of movies application fetching from a from movies Api, making some filters, search bar, & whishlist ReactMovies",
+    "Features": "Featured project",
+    "button": "Show more!"
+  },
+  "Footer": {
+    "title": " What s Next?",
+    "subTitle": "Get In Touch",
+    "description": "Thank you for taking the time to explore my portfolio. If you have any questions, opportunities, or just want to say hello, I d love to hear from you. Feel free to reach out through the contact form below or connect with me on social media. I m always open to collaborations and new experiences. Looking forward to connecting with you!  ",
+    "sayHi": "Say Hello! "
   }
 }

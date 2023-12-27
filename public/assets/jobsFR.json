@@ -1,0 +1,64 @@
+{
+  "jobs": [
+    {
+      "posteName": "Ingénieur Full Stack",
+      "companiesName": "Keyrus",
+      "startDate": 2023,
+      "endDate": 2022,
+      "jobDescription": "Travaillant principalement avec Orange Africa, j'ai eu l'occasion de collaborer sur plusieurs modules de l'application Omnis. Omnis sert de plateforme de back-office pour la gestion d'événements et de jeux pour Orange.",
+      "tasks": [
+        "Collaboration avec des consultants seniors (développeurs, designers, UX designers) et des chefs de projet/produit au sein d'une petite équipe agile pour la construction d'applications web réactives, compatibles avec différents navigateurs et évolutives. Réunions quotidiennes. Revue par les pairs des Pull Requests. Implication dans le front-end et le back-end. Exposition à l'UX.",
+        "Livraison de code de production robuste et de haute qualité pour une variété de projets clients, dont iCADE France, Orange, Keyrus Lyon.",
+        "Refactoring continu, débogage et correction de bugs pour assurer un service publicitaire de haute qualité. Optimisation du temps de démarrage de 20%."
+      ]
+    },
+    {
+      "posteName": "Développeur Frontend",
+      "companiesName": "ATAYEN",
+      "startDate": 2022,
+      "endDate": 2022,
+      "jobDescription": "Contribution au développement d'une application publicitaire qui met en relation des influenceurs avec des marques, offrant des avantages aux utilisateurs directement depuis la plateforme grâce aux technologies web 3.0 et blockchain. Les responsabilités comprenaient la correction de bugs côté frontend, la création de nouvelles fonctionnalités côté frontend en utilisant React, la conception de pages basées sur des maquettes Figma, la participation à la création et au déploiement de contrats intelligents en utilisant Solidity, et le développement de DApps, contrats intelligents, pages de mint et pages de staking pour des projets NFT.",
+      "tasks": [
+        "Contribution d'idées et de suggestions lors des réunions d'équipe et livraison de mises à jour conformément aux plannings pour les designs et les améliorations.",
+        "Refonte de sites web pour améliorer la navigation et l'attrait visuel.",
+        "Participation à la création et au déploiement de contrats intelligents avec Solidity.",
+        "Conception et développement de différentes sections admin et frontend de l'application permettant aux membres d'interagir les uns avec les autres ainsi qu'avec le support client."
+      ]
+    },
+    {
+      "posteName": "Développeur Frontend",
+      "companiesName": "Jumia",
+      "startDate": 2022,
+      "endDate": 2021,
+      "jobDescription": "Supervision de l'application et du site web de Jumia tout en assurant un e-merchandising efficace : maintenance quotidienne du site web, réévaluation des assortiments de produits, de la structure du catalogue et de la navigation. Maîtrise efficace de l'interface de l'application et du site web. Coordination, y compris des briefings, avec les designers pour obtenir des designs graphiques optimaux. Planification du contenu des pages, y compris les catégories, les campagnes, l'écosystème, les marques et la publicité. Gestion des pages web sur la plateforme web de Jumia.",
+      "tasks": [
+        "Coordination (y compris des briefings) avec les designers pour obtenir les meilleurs designs.",
+        "Planification appropriée du contenu des pages (catégorie, campagnes, écosystème, marques, publicité, etc.)."
+      ]
+    },
+    {
+      "posteName": "Développeur Frontend",
+      "companiesName": "CNFPI",
+      "startDate": 2021,
+      "endDate": 2020,
+      "jobDescription": "Création de modèles WordPress et d'applications web en utilisant les technologies web (HTML, CSS, Bootstrap, WordPress et Shopify). Développement de pages web basées sur des maquettes de design. Conception et mise en œuvre de modèles WordPress. Configuration et gestion de serveurs Discord et Twitter. Recherche et amélioration du référencement naturel SEO.",
+      "tasks": [
+        "Création de modèles WordPress.",
+        "Création de pages web à partir de maquettes de design.",
+        "Amélioration du référencement naturel SEO."
+      ]
+    },
+    {
+      "posteName": "Développeur Frontend",
+      "companiesName": "Mdsoft",
+      "startDate": 2019,
+      "endDate": 2017,
+      "jobDescription": "Création de pages web basées sur des maquettes de design web, en utilisant HTML/CSS/JS, Bootstrap pour définir les feuilles de style, les menus, les pieds de page et le contenu de la page, ainsi que des optimisations SEO. Développement de pages web à partir d'un croquis en utilisant Bootstrap. Préparation de documents de spécification des besoins. Analyse et référencement SEO des sites web. Test d'applications web et mobiles avant le déploiement.",
+      "tasks": [
+        "Création de pages web à partir d'un croquis avec Bootstrap.",
+        "Test d'application avant les mises en production.",
+        "Chargement des spécifications."
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import './_banner.scss';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 export const Banner = () => {
-  const t = useTranslations('Index');
+  const t = useTranslations('Banner');
   return (
     <motion.section
       id="home"
@@ -13,28 +13,21 @@ export const Banner = () => {
       transition={{ delay: 0.5 }}
     >
       <div className="text-banner">
-        <h3>{t('title')} </h3>
-        <h1>
-          Adam BenMessaoud.<span> I build things for the web.</span>
-        </h1>
-        <p>
-          I am a web developer with 2+ years of experience in Web Developement.
-          I have a strong foundation in front-end & back-end development and am
-          skilled in creating user-friendly and responsive web applications
-          using React,Vue,NodeJs and its ecosystem.
-        </p>
+        <h3>{t('subtitle')} </h3>
+        <h1>{t('title')}</h1>
+        <p>{t('description')}</p>
         <p>
           {' '}
           <a href="#project">
             <span>
-              Learn More
+              {t('link')}
               <span className="liner"></span>
             </span>
           </a>
         </p>
         <div>
           <a href="#project" className="">
-            <button> Check out my Projects!</button>
+            <button> {t('button')}</button>
           </a>
         </div>
       </div>

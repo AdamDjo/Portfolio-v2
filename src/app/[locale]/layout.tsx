@@ -22,7 +22,7 @@ export default function RootLayout({
   const messages = useMessages();
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar></Navbar>
           {children}

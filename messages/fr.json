@@ -1,5 +1,36 @@
 {
-  "Index": {
-    "title": "Bonjour!"
+  "Banner": {
+    "title": "Adam BenMessaoud.",
+    "subtitle": "Bonjour, je suis",
+    "description": "Je suis un développeur Web avec plus de 2 ans d'expérience dans le développement Web. J'ai de solides bases en développement front-end et back-end et je suis compétent dans la création d'applications Web conviviales et réactives à l'aide de React, Vue, NodeJs et de son écosystème.",
+    "link": "Savoir plus",
+    "button": "Découvrez mes projets!"
+  },
+  "About": {
+    "title": "A propos ",
+    "description 1": " Salut ! Je suis un développeur 𝐟𝐫𝐨𝐧𝐭𝐞𝐧𝐝 spécialisé dans 𝐑𝐞𝐚𝐜𝐭 avec une passion pour la création d'expériences utilisateur exceptionnelles. Avec plus de 4 années d'expérience,   ",
+    "description 2": "je possède une solide expertise dans le développement web, la création de sites réactifs et la conception de solutions conviviales.",
+    "description 3": " Au-delà de mes compétences techniques, je suis également un excellent communicateur et un membre d'équipe engagé. Je suis habitué à travailler en collaboration avec des designers, des développeurs Back-End et des parties prenantes pour offrir des produits de haute qualité dans les délais impartis.    ",
+    "technologies": "Voici quelques technologies avec lesquelles j'ai travaillé récemment:"
+  },
+  "Experiences": {
+    "title": "Experiences"
+  },
+  "Projects": {
+    "title": "Certaines choses que j'ai construites",
+    "ProjectTitle": " Githread",
+    "ProjectInfo": "Application mobile construite avec Next14 avec quelques fonctionnalités : Next Auth pour l'authentification, avec cette application, vous pouvez publier un fil de discussion GitHub.",
+    "ProjectTitleTwo": "Music MiniProject",
+    "ProjectInfoTwo": "Il s'agissait d'une formation automatique de Vue 3, c'est un site Web de musique utilisant l'API Vue Option et Firebase comme service backend.",
+    "ProjectTitleThree": " React Movies",
+    "ProjectInfoThree": "Liste des applications de films récupérant à partir d'une API de films, créant des filtres, une barre de recherche et une liste de souhaits ReactMovies",
+    "Features": "Projet en déploiement",
+    "button": "Montre plus!"
+  },
+  "Footer": {
+    "title": "Et après?",
+    "subTitle": "Restez connecter",
+    "description": "Merci d'avoir pris le temps d'explorer mon portfolio. Si vous avez des questions, des opportunités ou si vous souhaitez simplement me dire bonjour, j'aimerais avoir de vos nouvelles. N'hésitez pas à nous contacter via le formulaire de contact ci-dessous ou à me contacter sur les réseaux sociaux. Je suis toujours ouvert aux collaborations et aux nouvelles expériences. Au plaisir de communiquer avec vous !  ",
+    "sayHi": "Laissez moi un message !"
   }
 }

@@ -1,8 +1,10 @@
 import useAnimate from '@/src/hooks/useAnimate';
 import './_contact.scss';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 export const Contact = () => {
   const { ref, mainControls } = useAnimate();
+  const t = useTranslations('Footer');
   return (
     <motion.section
       id="contact"
@@ -21,18 +23,13 @@ export const Contact = () => {
     >
       <span className="liner"></span>
       <p className="subtitle">
-        <span>0.4.</span>What s Next?
+        <span>0.4.</span>
+        {t('title')}
       </p>
-      <h2>Get In Touch</h2>
-      <p className="description">
-        Thank you for taking the time to explore my portfolio. If you have any
-        questions, opportunities, or just want to say hello, I d love to hear
-        from you. Feel free to reach out through the contact form below or
-        connect with me on social media. I m always open to collaborations and
-        new experiences. Looking forward to connecting with you!
-      </p>
+      <h2>{t('subTitle')}</h2>
+      <p className="description">{t('description')}</p>
       <a href="mailto:=adam.ben.messaoud@outlook.fr">
-        <button>Say Hello! </button>
+        <button>{t('sayHi')} </button>
       </a>
     </motion.section>
   );

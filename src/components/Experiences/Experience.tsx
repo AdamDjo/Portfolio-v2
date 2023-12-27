@@ -5,10 +5,17 @@ import { Jobs, Job } from './Jobs';
 import './_experience.scss';
 import { motion } from 'framer-motion';
 import useAnimate from '@/src/hooks/useAnimate';
-
+import { usePathname } from 'next/navigation';
 export const Experience = () => {
+  const pathname = usePathname();
   const { ref, mainControls } = useAnimate();
-  const jobsData = require('@/public/assets/jobs.json');
+  let jobsData;
+  if (pathname.includes('/en')) {
+    jobsData = require('@/public/assets/jobsEN.json');
+  } else {
+    jobsData = require('@/public/assets/jobsFR.json');
+  }
+
   const data: Job[] = jobsData.jobs;
 
   const [selectedJobIndex, setSelectedJobIndex] = useState(0);
