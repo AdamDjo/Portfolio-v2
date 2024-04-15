@@ -3,8 +3,8 @@
     {
       "posteName": "Full Stack Engineer",
       "companiesName": "Keyrus",
-      "startDate": 2023,
-      "endDate": 2022,
+      "startDate": 2021,
+      "endDate": 2023,
       "jobDescription": "Working primarily with Orange Africa, I have had the opportunity to collaborate on multiple modules of the Omnis application. Omnis serves as a back-office platform for the management of events and games for OrangeWorking",
       "tasks": [
         "Collaborated with senior consultants (developers, designers, UX designers) and project/product managers in a small, agile team building responsive, cross-browser compatible and scalable web apps. Daily stand-up. Peer reviewing PR. Involved in front-end & back-end. Exposed to UX.",
@@ -15,8 +15,8 @@
     {
       "posteName": "Frontend Developper",
       "companiesName": "ATAYEN",
-      "startDate": 2022,
-      "endDate": 2022,
+      "startDate": 2020,
+      "endDate": 2021,
       "jobDescription": "Contributed to the development of an advertising application that connects influencers with brands, providing benefits to users directly from the platform through web 3.0 and blockchain technologies. Responsibilities included bug fixing on the frontend, creating new features on the frontend using React, designing pages based on Figma mockups, participating in the creation and deployment of smart contracts using Solidity, and developing DApps, smart contracts, mint pages, and staking pages for NFT projects.Contributed to the development of an advertising application that connects influencers with brands, providing benefits to users directly from the platform through web 3.0 and blockchain technologies. Responsibilities included bug fixing on the frontend, creating new features on the frontend using React, designing pages based on Figma mockups, participating in the creation and deployment of smart contracts using Solidity, and developing DApps, smart contracts, mint pages, and staking pages for NFT projects.",
       "tasks": [
         "Contributing ideas and suggestions during team meetings and delivering updates on schedule for designs and improvements. ",
@@ -25,29 +25,7 @@
         "Design and developed different admin and front-end section of the application that provided a gateway to members to interact with each other as well as customer support."
       ]
     },
-    {
-      "posteName": "Frontend Developper",
-      "companiesName": "Jumia ",
-      "startDate": 2022,
-      "endDate": 2021,
-      "jobDescription": "Overseeing the Jumia application and website while ensuring effective e-merchandising: maintaining the website on a daily basis, reevaluating product assortments, catalog structure, and navigation. Proficiently mastering the interface of both the application and website. Coordinating, including briefings, with designers to achieve optimal graphic designs. Planning page content, including categories, campaigns, ecosystem, brands, and advertising. Managing web pages on the Jumia web platformOverseeing",
-      "tasks": [
-        "Coordinate (incl. briefings) with designers to get best in class designs. ",
-        "Plan accordingly the page content (category, campaigns, ecosystem, brands, advertising, etc). "
-      ]
-    },
-    {
-      "posteName": "Frontend Developper",
-      "companiesName": "CNFPI  ",
-      "startDate": 2021,
-      "endDate": 2020,
-      "jobDescription": "Creation of WordPress templates and web applications using web technologies (HTML, CSS, Bootstrap, WordPress, and Shopify). Development of web pages based on design mockups. Design and implementation of WordPress templates. Configuration and management of Discord and Twitter servers. Research and improvement of natural SEO referencing.",
-      "tasks": [
-        "Creation of Wordpress templates.  ",
-        "Creation of web pages from design.  ",
-        "improvement of SEO natural referencing."
-      ]
-    },
+
     {
       "posteName": "Frontend Developper",
       "companiesName": "Mdsoft   ",
